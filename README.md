@@ -7,8 +7,11 @@ Foram realizadas etapas de pré-processamento como o tratamento de dados nulos, 
 O algoritmo escolhido foi a Árvore de Decisão, um modelo supervisionado adequado para dados variados. Os dados foram divididos em 70% para treinamento e 30% para teste. 
 
 <h3>Resultados</h3>
-Resultados Iniciais (sem balanceamento):
-<br>A acurácia foi de aproximadamente 67.84%. No entanto, o modelo apresentava um desempenho superior na previsão de que o usuário "gostaria" do livro, indicando um possível vício. 
 
-Resultados Finais (com balanceamento)
-<br>Após o balanceamento das classes, a acurácia foi de aproximadamente 61.08%. O desempenho se tornou mais equilibrado entre as classes "gostou" e "não gostou", indicando um modelo mais consistente e imparcial, apesar da baixa na acurácia. 
+<h4>Resultados Iniciais (sem balanceamento):</h4>
+
+A acurácia foi de aproximadamente 67.84%. No entanto, o modelo apresentava um desempenho superior na previsão de que o usuário "gostaria" do livro, indicando um possível vício. 
+
+<h4>Resultados Finais (com balanceamento):</h4>
+
+Após o balanceamento das classes, a acurácia foi de aproximadamente 61.08%. O desempenho se tornou mais equilibrado entre as classes "gostou" e "não gostou", indicando um modelo mais consistente e imparcial, apesar da baixa na acurácia. 
